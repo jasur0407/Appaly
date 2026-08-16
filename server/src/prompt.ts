@@ -116,7 +116,7 @@ Other Achievements:
 ${achievements}`;
 }
 
-export function buildEvaluatePropmpt(profile: ApplicantProfile): string {
+export function buildEvaluatePrompt(profile: ApplicantProfile): string {
     return `${CALIBRATION_RULES}
     ${CATEGORY_DEFINITIONS}
 
